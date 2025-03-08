@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --main-color: #c2b067;
+}
+
+.tangerine-regular {
+  font-family: "Tangerine", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  @apply bg-red-950;
+  color: var(--main-color);
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+
+button {
+  @apply p-1 px-3;
+  background: var(--main-color);
+  color: var(--color-black);
+}
+
+.frame-1 {
+  --s: 10px; 
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid var(--main-color);
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,var(--main-color) 0);
+}
+
+.ornament {
+  filter: invert(80%) sepia(33%) saturate(456%) hue-rotate(11deg) brightness(93%) contrast(87%);
+}

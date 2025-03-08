@@ -1,0 +1,20 @@
+:root {
+  --bg-overlay: rgba(70, 8, 9, 0.83)
+}
+
+#home {
+  background: linear-gradient(0deg, var(--bg-overlay), var(--bg-overlay)), url("/bg.jpg");
+  background-size: cover;
+}
+
+.salam {
+  max-width: unset !important;
+  width: calc(100% + 60px); /* Add the left and right inset values */
+  margin-left: -30px; /* Negative margin equal to the left inset */
+  clip-path: inset(30px 30px 90px 10px);  /* top right bottom left */
+  mask-image: radial-gradient(circle, rgba(70,8,9,1) 0%, rgba(70,8,9,0) 100%);
+}
+
+.gradient-ending {
+  background: linear-gradient(0deg, rgba(63,94,251,0) 10%, rgba(70,8,9,1) 100%);
+}
