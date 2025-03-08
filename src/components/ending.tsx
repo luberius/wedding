@@ -13,7 +13,7 @@ const Ending = () => {
         <span className="">Andika</span>
       </div>
       <img
-        src="/public/gallery/salam.webp"
+        src="/gallery/salam.webp"
         className="absolute bottom-[-90px] left-0 salam"
       />
     </section>

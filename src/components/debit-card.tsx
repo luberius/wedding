@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Copy, Check, CreditCard } from "lucide-react";
+import { Check } from "lucide-react";
 
 interface IProps {
   accountNumber: string;
