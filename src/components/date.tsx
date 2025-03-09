@@ -49,7 +49,7 @@ const TheDate = () => {
           initial={{ width: "0%" }}
           whileInView={{ width: "100%" }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
         />
 
         <motion.div
@@ -57,7 +57,7 @@ const TheDate = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
         >
           <h3 className="opacity-90 text-white text-2xl">Resepsi</h3>
           <span className="text-lg">Kamis, 10 April 2025</span>
@@ -77,7 +77,7 @@ const TheDate = () => {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.8, delay: 0.7 }}
+        transition={{ duration: 0.8, delay: 0.6 }}
       ></motion.iframe>
 
       <motion.button

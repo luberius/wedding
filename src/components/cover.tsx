@@ -8,6 +8,9 @@ interface IProps {
 }
 
 const Cover = ({ open, onClose }: IProps) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get("name") || "Tamu";
+
   return (
     <AnimatePresence>
       {open && (
@@ -28,7 +31,7 @@ const Cover = ({ open, onClose }: IProps) => {
           </div>
           <div className="flex flex-col items-center mb-32">
             <span>Kepada yth.</span>
-            <span className=" text-white text-xl">Bpk. Suparman</span>
+            <span className=" text-white text-xl">{name}</span>
             <button className="mt-8 flex items-center gap-2" onClick={onClose}>
               <MailOpen size={16} strokeWidth={1.7} />
               Buka Undangan
