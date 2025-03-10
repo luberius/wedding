@@ -74,14 +74,14 @@ class GlobalAudioPlayer {
       } catch (error) {
         console.error("Failed to initialize HLS:", error);
         // Fallback to regular audio
-        this.audio = new Audio("/music.mp3");
+        this.audio = new Audio("/music/music.mp3");
       }
     }
   }
 
   private initializeAudio() {
     // Start with a regular audio element as fallback
-    this.audio = new Audio("/music.mp3");
+    this.audio = new Audio("/music/music.mp3");
 
     // Set properties
     if (this.audio) {
