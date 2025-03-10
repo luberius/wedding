@@ -1,6 +1,7 @@
 import * as motion from "motion/react-client";
 import { MailOpen } from "lucide-react";
 import { AnimatePresence } from "motion/react";
+import { globalAudio } from "../GlobalAudio";
 
 interface IProps {
   open: boolean;
@@ -32,7 +33,13 @@ const Cover = ({ open, onClose }: IProps) => {
           <div className="flex flex-col items-center mb-32">
             <span>Kepada Yth.</span>
             <span className=" text-white text-xl">{name}</span>
-            <button className="mt-8 flex items-center gap-2" onClick={onClose}>
+            <button
+              className="mt-8 flex items-center gap-2"
+              onClick={() => {
+                onClose();
+                globalAudio.play();
+              }}
+            >
               <MailOpen size={16} strokeWidth={1.7} />
               Buka Undangan
             </button>

@@ -18,3 +18,11 @@
 .gradient-ending {
   background: linear-gradient(0deg, rgba(63,94,251,0) 10%, rgba(70,8,9,1) 100%);
 }
+
+.play-state > div > div {
+  animation: counter-spin 4s linear infinite;
+}
+@keyframes counter-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}

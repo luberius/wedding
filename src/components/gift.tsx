@@ -11,7 +11,7 @@ const Gift = () => {
   return (
     <section
       id="gift"
-      className="flex flex-col items-center w-dvw bg-black/70 px-8 py-8 gap-4"
+      className="flex flex-col items-center w-full bg-black/70 px-8 py-8 gap-4"
     >
       <motion.div
         className="flex flex-col sm:flex-row justify-between items-center"

@@ -8,6 +8,8 @@ import Gallery from "./components/gallery";
 import TheDate from "./components/date";
 import Bride from "./components/bride";
 import Gift from "./components/gift";
+import Navigation from "./components/navigation";
+import MusicPlayer from "./components/music";
 
 function App() {
   const [open, setOpen] = useState(true);
@@ -35,6 +37,8 @@ function App() {
       <Gallery />
       <Gift />
       <Ending />
+      {!open && <Navigation />}
+      <MusicPlayer />
     </div>
   );
 }
