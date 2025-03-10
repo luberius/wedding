@@ -21,6 +21,7 @@ body {
   color: var(--main-color);
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
+  overflow-x: hidden !important;
 }
 
 button {

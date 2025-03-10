@@ -71,10 +71,8 @@ END:VCALENDAR`;
       </p>
       <span className="text-white/85">Q.S. Ar-Rum : 21</span>
       <div className="flex flex-col items-center tangerine-regular text-[45px]/6 mt-16 mb-4 relative w-[150px] h-[150px]">
-        <span className="absolute top-[50px] left-[20px] text-white/85">A</span>
-        <span className="absolute bottom-[55px] right-[30px] text-white/85">
-          A
-        </span>
+        <span className="absolute top-[50px] left-[20px]">A</span>
+        <span className="absolute bottom-[55px] right-[30px]">A</span>
         <div className="absolute top-0 left-0 w-[150px] h-[150px]">
           <AnimatedEmblem />
         </div>

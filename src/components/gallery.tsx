@@ -7,14 +7,14 @@ const Gallery = () => {
 
   useEffect(() => {
     const imageFiles = [
-      "rotated_DSCF6880_resized.webp",
-      "rotated_DSCF6883_resized.webp",
-      "rotated_DSCF6886_resized.webp",
-      "rotated_DSCF6887_resized.webp",
-      "rotated_DSCF6889_resized.webp",
-      "rotated_DSCF6891_resized.webp",
-      "rotated_DSCF6892_resized.webp",
-      "rotated_DSCF6893_resized.webp",
+      "DSCF6808.webp",
+      "DSCF6821.webp",
+      "DSCF6839.webp",
+      "DSCF6848.webp",
+      "DSCF6889.webp",
+      "DSCF6971.webp",
+      "DSCF6860.webp",
+      "DSCF6937.webp",
     ];
 
     // Load images with metadata

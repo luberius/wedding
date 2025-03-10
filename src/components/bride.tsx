@@ -15,7 +15,7 @@ const Bride = () => {
       >
         <div className="flex items-end gap-3">
           <motion.img
-            src="gallery/the_bride.webp"
+            src="bride/the_bride.webp"
             width={229}
             height={300}
             className="frame-1"
@@ -29,7 +29,7 @@ const Bride = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Anjani Prima Ningsih
+          Anjani Prima Ningsih S.Psi.
         </motion.span>
         <motion.p
           initial={{ opacity: 0 }}
@@ -51,7 +51,7 @@ const Bride = () => {
       >
         <div className="flex items-end gap-3">
           <motion.img
-            src="gallery/the_groom.webp"
+            src="bride/the_groom.webp"
             width={229}
             height={300}
             className="frame-1"
@@ -65,7 +65,7 @@ const Bride = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Syahril Andika Pratama
+          Syahril Andika Pratama S.M.
         </motion.span>
         <motion.p
           className="text-end"

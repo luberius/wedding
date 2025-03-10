@@ -61,7 +61,7 @@ const Ending = () => {
 
       <motion.img
         src="/gallery/salam.webp"
-        className="absolute bottom-[-90px] left-0 salam"
+        className="absolute bottom-[-70px] left-0 salam"
         initial={{ y: 10, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}

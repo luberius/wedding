@@ -9,7 +9,7 @@ const Gift = () => {
   };
 
   return (
-    <section className="flex flex-col h-screen items-center w-full bg-black/70 px-8 py-8 gap-4">
+    <section className="flex flex-col items-center w-full bg-black/70 px-8 py-8 gap-4">
       <motion.div
         className="flex flex-col sm:flex-row justify-between items-center"
         initial={{ opacity: 0, y: -20 }}
