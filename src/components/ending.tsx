@@ -2,7 +2,10 @@ import { motion } from "motion/react";
 
 const Ending = () => {
   return (
-    <section className="relative flex flex-col h-screen items-center w-full overflow-clip">
+    <section
+      id="ending"
+      className="relative flex flex-col h-screen items-center w-full overflow-clip"
+    >
       <motion.p
         className="text-center mt-16 px-16 mb-4"
         initial={{ opacity: 0, y: 30 }}
@@ -15,7 +18,7 @@ const Ending = () => {
       </motion.p>
 
       <motion.span
-        className="mt-8 bg-red-950 w-full text-center"
+        className="mt-8 w-full text-center"
         initial={{ opacity: 0, scaleX: 0 }}
         whileInView={{ opacity: 1, scaleX: 1 }}
         viewport={{ once: true }}
@@ -25,7 +28,7 @@ const Ending = () => {
       </motion.span>
 
       <motion.div
-        className="flex flex-col items-center tangerine-regular text-[40px]/10 mb-4 w-full pb-4 pt-28 text-white z-10 gradient-ending"
+        className="flex flex-col items-center tangerine-regular text-[40px]/10 mb-4 w-full pb-4 mt-8 text-white z-10"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -58,21 +61,6 @@ const Ending = () => {
           Andika
         </motion.span>
       </motion.div>
-
-      <motion.img
-        src="/gallery/salam.webp"
-        className="absolute bottom-0 left-0 salam"
-        initial={{ y: 10, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          duration: 1.2,
-          delay: 1.2,
-          type: "spring",
-          stiffness: 70,
-          damping: 15,
-        }}
-      />
     </section>
   );
 };

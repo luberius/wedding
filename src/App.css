@@ -7,6 +7,18 @@
   background-size: cover;
 }
 
+#opening {
+  background: linear-gradient(0deg, var(--bg-overlay), var(--bg-overlay)), url("/cover.webp");
+  background-size: cover;
+}
+
+#ending {
+  background: linear-gradient(0deg, var(--bg-overlay), var(--bg-overlay)), url("/gallery/salam.webp");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .salam {
   /* max-width: unset !important; */
   /* width: calc(100% + 60px); /* Add the left and right inset values */ 
