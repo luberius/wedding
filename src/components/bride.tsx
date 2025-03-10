@@ -3,7 +3,10 @@ import OrnamentalDivider from "./divider";
 
 const Bride = () => {
   return (
-    <section className="flex flex-col items-center w-full bg-black/70 px-8 gap-4">
+    <section
+      id="bride"
+      className="flex flex-col items-center w-full bg-black/70 px-8 gap-4"
+    >
       <OrnamentalDivider symbol="flower" />
 
       <motion.div

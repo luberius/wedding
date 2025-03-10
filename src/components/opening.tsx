@@ -7,7 +7,10 @@ interface IProps {
 
 const Opening = ({ open }: IProps) => {
   return (
-    <section className="flex flex-col h-screen items-center justify-end w-full">
+    <section
+      id="opening"
+      className="flex flex-col h-screen items-center justify-end w-full"
+    >
       <div className="flex-1">
         <div className="flex flex-col items-center tangerine-regular text-[45px]/6 mt-16 mb-4 relative w-[150px] h-[150px]">
           <span className="absolute top-[50px] left-[20px]">A</span>

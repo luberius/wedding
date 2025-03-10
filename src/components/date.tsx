@@ -9,7 +9,10 @@ const TheDate = () => {
   };
 
   return (
-    <section className="flex flex-col items-center w-full bg-black/70 px-8 gap-4 pt-2 pb-8">
+    <section
+      id="date"
+      className="flex flex-col items-center w-full bg-black/70 px-8 gap-4 pt-2 pb-8"
+    >
       <OrnamentalDivider symbol="star" />
 
       <motion.div

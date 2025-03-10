@@ -16,7 +16,7 @@ const Cover = ({ open, onClose }: IProps) => {
       {open && (
         <motion.section
           id="home"
-          className="h-screen flex flex-col justify-end items-center fixed top-0 left-0 w-full z-10"
+          className="h-screen flex flex-col justify-end items-center fixed top-0 left-0 w-dvw z-10"
           exit={{
             opacity: 0,
             scale: 1.4,
@@ -30,7 +30,7 @@ const Cover = ({ open, onClose }: IProps) => {
             <span className="ml-10">Andika</span>
           </div>
           <div className="flex flex-col items-center mb-32">
-            <span>Kepada yth.</span>
+            <span>Kepada Yth.</span>
             <span className=" text-white text-xl">{name}</span>
             <button className="mt-8 flex items-center gap-2" onClick={onClose}>
               <MailOpen size={16} strokeWidth={1.7} />

@@ -60,7 +60,10 @@ END:VCALENDAR`;
   };
 
   return (
-    <section className="flex flex-col items-center w-full bg-black/70 px-8 gap-4 pb-4">
+    <section
+      id="arrum"
+      className="flex flex-col items-center w-full bg-black/70 px-8 gap-4 pb-4"
+    >
       <img src={bismillah} className="w-3/5 mt-10" alt="Bismillah" />
       <p className="text-justify text-white/85">
         Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan

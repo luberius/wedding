@@ -9,7 +9,10 @@ const Gift = () => {
   };
 
   return (
-    <section className="flex flex-col items-center w-full bg-black/70 px-8 py-8 gap-4">
+    <section
+      id="gift"
+      className="flex flex-col items-center w-dvw bg-black/70 px-8 py-8 gap-4"
+    >
       <motion.div
         className="flex flex-col sm:flex-row justify-between items-center"
         initial={{ opacity: 0, y: -20 }}
@@ -34,8 +37,8 @@ const Gift = () => {
 
       <motion.div
         className="w-full"
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{
           type: "spring",
@@ -53,8 +56,8 @@ const Gift = () => {
 
       <motion.div
         className="w-full"
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{
           type: "spring",
@@ -79,7 +82,7 @@ const Gift = () => {
         transition={{
           type: "spring",
           stiffness: 200,
-          delay: 0.8,
+          delay: 0.5,
         }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
